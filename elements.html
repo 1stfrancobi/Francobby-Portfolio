@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Reusable HTML elements for portfolio website">
-	<title>Reusable Elements</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			line-height: 1.6;
-			padding: 2rem;
-			background-color: #f9f9f9;
-			color: #333;
-		}
-
-		.example {
-			margin-bottom: 2rem;
-		}
-
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			color: #4caf50;
-		}
-
-		.button {
-			display: inline-block;
-			padding: 0.7rem 1.5rem;
-			background: #4caf50;
-			color: #fff;
-			text-decoration: none;
-			border-radius: 4px;
-		}
-
-		.button:hover {
-			background: #45a049;
-		}
-
-		.card {
-			background: #fff;
-			border: 1px solid #ddd;
-			border-radius: 8px;
-			padding: 1rem;
-			max-width: 300px;
-			margin: 0 auto;
-			text-align: center;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Reusable components for the Francis Cobbinah portfolio."
+  >
+  <title>Design Elements | Francis Cobbinah</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<h1>Reusable Elements</h1>
+  <a class="skip" href="#main">Skip to content</a>
 
-	<div class="example">
-		<h2>Buttons</h2>
-		<a href="#" class="button">Example Button</a>
-	</div>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">DATA ANALYSIS · GEOSPATIAL INSIGHT</p>
+      <h1>Design elements</h1>
+      <p>Francis Cobbinah · Project portfolio</p>
+    </div>
+  </header>
 
-	<div class="example">
-		<h2>Card</h2>
-		<div class="card">
-			<h3>Sample Card</h3>
-			<p>This is an example of a reusable card component.</p>
-		</div>
-	</div>
+  <nav aria-label="Main navigation">
+    <a href="index.html#about">About</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="index.html#projects">Projects</a>
+    <a href="index.html#experience">Experience</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <main id="main">
+    <section>
+      <p class="eyebrow">STYLE REFERENCE</p>
+      <h2>Portfolio components</h2>
+
+      <p>
+        This page documents the typography, links and cards used across
+        this website.
+      </p>
+
+      <a class="button" href="index.html#projects">
+        Explore projects
+      </a>
+
+      <div class="container component-demo">
+        <article class="card card-body">
+          <p class="tag">CATEGORY</p>
+          <h3>Project title</h3>
+          <p>
+            Describe the question, method and evidence behind the work.
+          </p>
+          <a href="index.html">Return to portfolio →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Francis Cobbinah</p>
+    <p>
+      <a href="https://www.linkedin.com/in/cobbinah-francis">LinkedIn</a>
+      <span aria-hidden="true"> / </span>
+      <a href="https://github.com/1stfrancobi">GitHub</a>
+    </p>
+  </footer>
 </body>
-
 </html>
