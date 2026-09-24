@@ -1,98 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio website for a data analyst and geomatic engineer">
-	<title>Geomatic Engineer and Data Analyst</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<!-- Link to External CSS -->
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Francis Cobbinah’s portfolio of data analysis, visualization, satellite-gravity research and geospatial work."
+  >
+  <title>Data Analysis and Geospatial Portfolio | Francis Cobbinah</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- Header Section -->
-	<header>
-		<h1>Francis Cobbinah</h1>
-		<p>Geomatic Engineer | Mine Surveying | Data Analyst</p>
-	</header>
+  <a class="skip" href="#main">Skip to content</a>
 
-	<!-- Navigation -->
-	<nav>
-		<a href="#about">About</a>
-		<a href="#skills">Skills</a>
-		<a href="#projects">Projects</a>
-		<a href="#contact">Contact</a>
-	</nav>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">DATA ANALYSIS · GEOSPATIAL INSIGHT</p>
+      <h1>Francis Cobbinah</h1>
+      <p>Python · Model evaluation · Data visualization</p>
+      <a class="button light" href="#projects">
+        Explore my work <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </header>
 
-	<!-- About Section -->
-	<section id="about">
-		<h2>About Me</h2>
-		<p>
-			Hi! I'm Francis, a geomatic engineer and a data analyst specializing in GNSS-based surveying, GIS, remote sensing, 
-			and spatial data analytics. Experienced in Cadastral surveying, mine surveying, digital mapping, land-use analysis and gravity data modelling.
-		</p>
-	</section>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-	<!-- Skills Section -->
-	<section id="skills">
-		<h2>Skills</h2>
-		<div class="container">
-			<div class="card">
-				<h3>Data Analysis</h3>
-				<p>Proficient in data cleaning, wrangling, and visualization using Python and Excel.</p>
-			</div>
-			<div class="card">
-				<h3>SQL</h3>
-				<p>Skilled in querying, database management, and optimization for insights.</p>
-			</div>
-			<div class="card">
-				<h3>Visualization Tools</h3>
-				<p>Expertise in MS Excel and Power BI for creating interactive dashboards.</p>
-			</div>
-		</div>
-	</section>
+  <main id="main">
+    <section id="about">
+      <p class="eyebrow">ABOUT ME</p>
+      <h2>Making data useful, from observations to explanations.</h2>
 
-	<!-- Projects Section -->
-	<section id="projects">
-		<h2>Projects</h2>
-		<div class="container">
-			<div class="card">
-				<img src="images/Bike_Share_Dashboard.png" alt="Project 1">
-				<h3>Bike Sharing Dashboard</h3>
-				<p>Developed an interactive dashboard using Power BI to track sharing trends.</p>
-			</div>
-			<div class="card">
-				<img src="images/Data_Analysis_with_Python.png" alt="Project 2">
-				<h3>Data Analysis with Python</h3>
-				<p>Used Python to identify customer segments.</p>
-			</div>
-			<div class="card">
-				<img src="images/Rplot.png" alt="Project 3">
-				<h3>Data Analysis with R</h3>
-				<p>Restaurant Data Analysis.</p>
-			</div>
-		</div>
-	</section>
+      <div class="intro">
+        <p>
+          I’m Francis, a geomatic engineer working across data analysis,
+          GIS and applied machine-learning research. I use Python, Excel
+          and spatial tools to organize information, examine patterns
+          and explain findings clearly.
+        </p>
 
-	<!-- Contact Section -->
-	<section id="contact">
-		<h2>Contact Me</h2>
-		<p>Feel free to reach out for collaborations or to learn more about my work.</p>
-		<a href="mailto:1stfrancobby@gmail.com" class="button">Email Me</a>
-	</section>
+        <p>
+          My experience combines satellite-gravity modelling with GIS
+          reporting and field-data verification in mining and construction.
+          I bring the same attention to measurement quality to analytical
+          work: check the inputs, assess the result and explain its limits.
+        </p>
+      </div>
+    </section>
 
-	<!-- Footer -->
-	<footer>
-		<p>&copy; 2025 Francis Cobbinah. Connect with me on
-			<a href="https://www.linkedin.com/in/cobbinah-francis" target="_blank">LinkedIn</a> |
-			<a href="https://github.com/1stfrancobi" target="_blank">GitHub</a>
-		</p>
-	</footer>
+    <section id="projects">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Research and analytical projects</h2>
+
+      <article class="featured">
+        <div>
+          <p class="tag">ACADEMIC RESEARCH · PYTHON</p>
+          <h3>Reconstructing gaps in satellite-gravity data</h3>
+          <p>
+            Applied machine-learning research into missing GRACE/GRACE-FO
+            observations, with model comparison, accuracy assessment and
+            scientific reporting.
+          </p>
+          <a class="button" href="generic.html">
+            Read the research overview →
+          </a>
+        </div>
+
+        <div class="research-note">
+          <p class="eyebrow">THE ANALYTICAL QUESTION</p>
+          <p>
+            How well can a model estimate observations that are missing
+            from a time series?
+          </p>
+          <p class="small">
+            Focus: prediction quality, comparison methods and limitations.
+          </p>
+        </div>
+      </article>
+
+      <div class="container">
+        <article class="card">
+          <a
+            href="images/Bike_Share_Dashboard.png"
+            aria-label="Open bike-sharing dashboard image"
+          >
+            <img
+              src="images/Bike_Share_Dashboard.png"
+              width="930"
+              height="521"
+              alt="Power BI dashboard showing bike-share revenue, profit, rider types and seasonal trends"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="card-body">
+            <p class="tag">POWER BI · DASHBOARD</p>
+            <h3>Bike-sharing performance</h3>
+            <p>
+              A dashboard bringing together revenue, profit, seasonal
+              activity and rider categories to explore how performance
+              varies.
+            </p>
+            <p class="small">
+              Portfolio dashboard; displayed figures describe its dataset,
+              not a verified business impact.
+            </p>
+            <a href="images/Bike_Share_Dashboard.png">
+              View dashboard image →
+            </a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a
+            href="images/Data_Analysis_with_Python.png"
+            aria-label="Open Python histogram image"
+          >
+            <img
+              src="images/Data_Analysis_with_Python.png"
+              width="620"
+              height="449"
+              alt="Python histogram showing the distribution of numerical observations"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="card-body">
+            <p class="tag">PYTHON · EXPLORATORY ANALYSIS</p>
+            <h3>Exploring a distribution</h3>
+            <p>
+              A histogram example for examining the shape, spread and
+              concentration of numerical observations.
+            </p>
+            <p class="small">
+              The shared figure has generic axis labels, so it is
+              presented as a visualization example.
+            </p>
+            <a href="images/Data_Analysis_with_Python.png">
+              View histogram →
+            </a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a
+            href="images/Rplot.png"
+            aria-label="Open restaurant cuisine chart"
+          >
+            <img
+              src="images/Rplot.png"
+              width="402"
+              height="380"
+              alt="Horizontal bar chart comparing restaurant counts across cuisine categories"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="card-body">
+            <p class="tag">R · CATEGORICAL ANALYSIS</p>
+            <h3>Restaurant cuisine patterns</h3>
+            <p>
+              A restaurant-data visualization comparing the number of
+              records across cuisine categories.
+            </p>
+            <p class="small">
+              Counts describe the analysed sample; they do not establish
+              customer preferences.
+            </p>
+            <a href="images/Rplot.png">View cuisine chart →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <p class="eyebrow">CAPABILITIES</p>
+      <h2>Tools supported by practical work</h2>
+
+      <div class="container">
+        <article class="card card-body">
+          <h3>Data preparation and analysis</h3>
+          <p>
+            Python, Excel and MATLAB for processing numerical data,
+            exploring patterns and assessing outputs.
+          </p>
+        </article>
+
+        <article class="card card-body">
+          <h3>Model evaluation</h3>
+          <p>
+            Time-series gap filling, predictive-model comparison, error
+            assessment and interpretation of limitations.
+          </p>
+        </article>
+
+        <article class="card card-body">
+          <h3>Visualization and reporting</h3>
+          <p>
+            Power BI dashboards, GIS maps and technical reports that make
+            analytical findings easier to understand.
+          </p>
+        </article>
+
+        <article class="card card-body">
+          <h3>Geospatial data quality</h3>
+          <p>
+            ArcGIS, remote sensing, spatial-data management, coordinate
+            verification and field-data checks.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <p class="eyebrow">APPLIED EXPERIENCE</p>
+      <h2>Data grounded in real project work</h2>
+
+      <div class="experience">
+        <article>
+          <p class="tag">DECEMBER 2025–PRESENT</p>
+          <h3>GIADEC · Mining Department</h3>
+          <p>
+            National Service Personnel supporting spatial and operational
+            data validation, bauxite mapping and technical reporting.
+          </p>
+        </article>
+
+        <article>
+          <p class="tag">MAY–JULY 2026</p>
+          <h3>Associated Consultants Ltd</h3>
+          <p>
+            Construction training involving survey checks, systematic
+            field recording and traceable pavement and materials records.
+          </p>
+        </article>
+
+        <article>
+          <p class="tag">MAY 2024 / NOVEMBER–DECEMBER 2023</p>
+          <h3>Mine and cadastral surveying</h3>
+          <p>
+            Internships at Perseus Mining Ghana Limited and Jemem Surveys,
+            covering survey-data processing, monitoring records and
+            cadastral-plan preparation.
+          </p>
+        </article>
+      </div>
+
+      <p class="education">
+        <strong>BSc Geomatic Engineering</strong> ·
+        University of Mines and Technology, 2021–2025
+        <br>
+        GIS, Mapping, and Spatial Analysis Specialization ·
+        University of Toronto via Coursera, 2026
+      </p>
+    </section>
+
+    <section id="contact">
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Let’s discuss data, maps and research.</h2>
+      <p>
+        For project conversations, collaboration or questions about my work.
+      </p>
+      <a href="mailto:1stfrancobby@gmail.com" class="button">
+        Email Francis
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Francis Cobbinah</p>
+    <p>
+      <a href="https://www.linkedin.com/in/cobbinah-francis">LinkedIn</a>
+      <span aria-hidden="true"> / </span>
+      <a href="https://github.com/1stfrancobi">GitHub</a>
+    </p>
+  </footer>
 </body>
-
-
 </html>
-
-
