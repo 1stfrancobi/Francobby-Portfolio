@@ -1,32 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Generic page template">
-	<title>Generic Page</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Francis Cobbinah's research on reconstructing missing GRACE/GRACE-FO satellite-gravity observations using machine learning."
+  >
+
+  <title>GRACE/GRACE-FO Research Overview | Francis Cobbinah</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- Header -->
-	<header>
-		<h1>Generic Page Title</h1>
-		<p>Subtitle or description for the page.</p>
-	</header>
+  <a class="skip" href="#main">Skip to content</a>
 
-	<!-- Content -->
-	<section>
-		<h2>Content Section</h2>
-		<p>This is a generic page template that you can use to create new pages for your portfolio. Replace this text
-			with your content.</p>
-	</section>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">APPLIED MACHINE-LEARNING RESEARCH</p>
+      <h1>Filling Gaps in Satellite-Gravity Data</h1>
+      <p>GRACE/GRACE-FO Research Overview</p>
+      <p>Francis Cobbinah · BSc Geomatic Engineering</p>
+    </div>
+  </header>
 
-	<!-- Footer -->
-	<footer>
-		<p>&copy; 2024 Francis Cobbinah. All rights reserved.</p>
-	</footer>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="#problem">Research problem</a>
+    <a href="#approach">Approach</a>
+    <a href="#evaluation">Evaluation</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <main id="main">
+    <section class="reading">
+      <p class="eyebrow">UNDERGRADUATE RESEARCH · UMAT · 2025</p>
+
+      <h2>Research overview</h2>
+
+      <p class="lead">
+        This project investigated how machine-learning models could
+        estimate missing observations in GRACE/GRACE-FO satellite-gravity
+        time series.
+      </p>
+
+      <p>
+        The work combined numerical data analysis, predictive modelling,
+        model comparison and scientific reporting. Its central question
+        was how reliably a model could reconstruct missing values from
+        patterns and relationships in the available data.
+      </p>
+
+      <h3 id="problem">The research problem</h3>
+
+      <p>
+        Gaps in satellite observations interrupt the continuity of a time
+        series and can complicate analysis of changes over time.
+        The transition between GRACE and its follow-on mission created
+        a period for which a continuous observational record was
+        unavailable.
+      </p>
+
+      <p>
+        My research explored a modelling approach to this problem:
+        use available observations to learn relationships, then produce
+        estimates for missing periods.
+      </p>
+
+      <h3 id="approach">My approach and contribution</h3>
+
+      <p>
+        I applied Python-based modelling to satellite-gravity time
+        series, compared predictive approaches and assessed the quality
+        of their outputs. I documented the methods, comparative findings
+        and limitations in a scientific report.
+      </p>
+
+      <ol>
+        <li>
+          <strong>Define the analytical objective.</strong>
+          Identify the missing observations to be reconstructed and
+          establish how model performance would be assessed.
+        </li>
+
+        <li>
+          <strong>Prepare the analytical data.</strong>
+          Organize the time-series inputs and target observations
+          for modelling and evaluation.
+        </li>
+
+        <li>
+          <strong>Develop and compare models.</strong>
+          Apply predictive approaches and examine differences in
+          their ability to reproduce available observations.
+        </li>
+
+        <li>
+          <strong>Evaluate and interpret outputs.</strong>
+          Use error metrics and statistical diagnostics to assess
+          prediction quality and identify limitations.
+        </li>
+
+        <li>
+          <strong>Communicate the evidence.</strong>
+          Explain the methodology and the reasoning behind
+          model comparisons and conclusions.
+        </li>
+      </ol>
+
+      <h3 id="evaluation">How I evaluated the analysis</h3>
+
+      <p>
+        Evaluation focused on how closely predictions matched reference
+        observations, how performance varied between models, and what
+        those differences meant for selecting a reconstruction method.
+        Error metrics and statistical diagnostics supported this
+        assessment.
+      </p>
+
+      <p>
+        A model's ability to reproduce observations must be distinguished
+        from its ability to generalize to unseen data. For time-series
+        work, the evaluation design also needs to respect the temporal
+        structure of the observations.
+      </p>
+
+      <h3>Interpreting reconstructed values</h3>
+
+      <p>
+        Reconstructed values are estimates rather than new satellite
+        measurements. Performance on withheld observations provides
+        evidence about the method, but it does not directly verify
+        predictions inside a gap where reference observations are
+        unavailable.
+      </p>
+
+      <p>
+        This distinction matters when communicating results:
+        a useful reconstruction should be accompanied by a clear
+        explanation of its assumptions and uncertainty.
+      </p>
+
+      <h3>Skills demonstrated</h3>
+
+      <ul>
+        <li>Python-based numerical data analysis.</li>
+        <li>Time-series modelling and gap filling.</li>
+        <li>Predictive-model comparison and accuracy assessment.</li>
+        <li>Interpretation of statistical diagnostics.</li>
+        <li>Evidence-based technical reasoning.</li>
+        <li>Scientific writing and communication of limitations.</li>
+      </ul>
+
+      <a class="button" href="index.html#projects">
+        ← Back to projects
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Francis Cobbinah</p>
+    <p>
+      <a href="https://www.linkedin.com/in/cobbinah-francis">
+        LinkedIn
+      </a>
+      <span aria-hidden="true"> / </span>
+      <a href="https://github.com/1stfrancobi">GitHub</a>
+    </p>
+  </footer>
 </body>
-
 </html>
